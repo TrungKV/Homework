@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    background-color: #8f6668;
+}
+#wapper{
+background-color: #fff;
+display: inline-block;
+height: 600px;
+width: 600px;
+border-radius: 50px 50px 50px 50px;
+margin-left: 500px;
+margin-top: 70px;
+
+}
+#wapper #img{
+    border-radius:50px 0px 0px 0px ;
+    height: 350px;
+    width: 250px;
+    object-fit: cover;
+   
+}
+
+#header {
+  width: 40%;
+  margin: 0px;
+}
+
+#header #ten {
+    text-align: center;
+}
+
+#content{
+width: 50%;
+float: right;
+margin-top: -450px;
+}
+
+#footer{
+
+}
