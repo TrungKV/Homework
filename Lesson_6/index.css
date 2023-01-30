@@ -279,7 +279,7 @@ body {
 /* price header */
 .price {
     text-align: center;
-    margin-bottom: 130px;
+    margin-bottom: 85px;
 }
 
 .price-text {
@@ -315,7 +315,225 @@ body {
     width: 850px;
     height: auto;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     padding-bottom: 6px;
     border-bottom: 1px solid var(--Gray-color-1)
 }
+
+.basic {
+    padding-left: 30%;
+}
+
+.premium {
+    padding-left: 30%;
+}
+
+.price_service {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price_service-1 {
+    width: 300px;
+    height: 730px;
+    border: 1px solid var(--Gray-color-1);
+    padding-left: 35px;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+
+.Tongquansp h3 {
+    padding-top: 11px;
+    weight: 600px;
+    size: 28px;
+    line-height: 25px;
+    padding-bottom: 11px;
+}
+
+.Tongquansp p {
+    weight: 400px;
+    size: 12px;
+    line-height: 18px;
+    padding-bottom: 28px;
+}
+
+.Tongquansp h2 {
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 32px;
+    padding-bottom: 50px;
+}
+
+.Tongquansp h4 {
+    width: 235px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid var(--text-color-1);
+    display: inline-block;
+    padding-top: 13px;
+    border-radius: 10px;
+}
+
+.chitietsp ul {
+    padding-top: 15px;
+}
+
+.chitietsp li {
+    padding-top: 22px;
+    /* text-align: center; */
+}
+
+/* Comment customer */
+.comment-customer {
+    display: flex;
+    padding-top: 160px;
+    height: 690px;
+    margin-bottom: 30px;
+}
+
+.comment-title {
+    padding-bottom: 30px;
+}
+
+.comment-title h2 {
+    width: auto;
+    height: 130px;
+    font-size: 48px;
+    font-weight: 800;
+    padding-left: 200px;
+}
+
+.comment-title h5 {
+    padding-left: 200px;
+
+}
+
+.comment-1 {
+    width: auto;
+    height: 450px;
+    padding-left: 264px;
+    padding-right: 40px;
+    /* border: solid var(--Gray-color-1); */
+}
+
+.comment-2 {
+    width: auto;
+    height: 300px;
+    padding-right: 264px;
+    padding-left: 40px;
+    /* border: solid var(--Gray-color-1); */
+}
+
+.comment-customer-right {
+    height: 600px;
+    padd
+}
+
+.comment-bottom {
+    display: flex;
+}
+
+.comment-bottom-left {
+    max-width: 50%;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    padding-left: 130px;
+}
+
+.comment-bottom-left p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    padding-right: 64px;
+}
+
+.comment-bottom-right .anh1 {
+    display: flex;
+    /* justify-content: space-around; */
+    /* margin-left: 90px; */
+    justify-content: space-evenly;
+}
+
+.comment-bottom-right .anh2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* End Comment customer */
+/* câu kết */
+.End-body {
+    width: 1230px;
+    height: 430px;
+    background-color: #F7FAFE;;
+    text-align: center;
+    align-content: center;
+}
+
+.End-body h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 88px;
+    padding-top: 80px;
+    margin: auto;
+}
+.End-body
+.nut{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.End-body p{
+    width: 210px;
+    height: 48px;
+    background-color: var(--primary-color);
+    text-align: center;
+    border: 1px solid var(--primary-color);
+    padding-top: 12px;
+    border-radius: 10px
+}
+
+/* End câu kết */
+
+/* Footer */
+.footer{
+    
+    max-width: ;width: 1440px;
+    height: 536px;
+    background-color: #b00000;
+    margin: 0 auto;
+    padding-top: 64px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer
+.section_1 {
+padding-left: 100px;
+
+height: auto;
+}
+.section_1 p{
+    width: 360px;
+}
+.section_1
+.end{
+    color: #ffffff;
+    padding-top: 124px; 
+}
+
+.section_2 ul{
+    list-style-type: none;
+}
+.section_2 p{
+    font-weight: 800;
+}
+.the {
+padding-top: 24px;
+color: #E6E6E6;
+}
+
+/* End Footer */
+
