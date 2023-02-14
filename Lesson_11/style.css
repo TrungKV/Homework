@@ -1,0 +1,27 @@
+.BT2 {
+  margin-top: 100px;
+  background-color: gray;
+  height: 300px;
+  position: relative;
+}
+.chua_DK {
+  display: block;
+  text-align: center;
+}
+
+.chua_DK h2 {
+  padding-top: 100px;
+}
+.Da_DK {
+  display: none;
+  text-align: center;
+  margin: auto;
+  padding: 100px;
+}
+
+.open {
+  display: block;
+}
+.close {
+  display: none;
+}
