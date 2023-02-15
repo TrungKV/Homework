@@ -10,7 +10,7 @@
   </head>
   <body>
     <!-- Bài Tập 1: bóng đèn sáng -->
-    <div class="buld">
+    <div class="buld container">
       <h2>Học Javascript thật đơn giản</h2>
       <button class="turnon">Turn on the light</button>
       <img class="img_anh" src="./img/pic_bulboff.gif" alt="" />
@@ -18,7 +18,7 @@
       <button class="turnoff">Turn off the light</button>
     </div>
     <!-- Bài tập 2  -->
-    <div class="BT2">
+    <div class="BT2 container">
       <section class="chua_DK">
         <button id="btn">Đăng kí khóa học</button>
         <h2>Khóa học chưa được đăng kí</h2>
@@ -28,6 +28,58 @@
       </section>
     </div>
 
+    <!-- Bài tập 3 -->
+    <div class="BT3 container">
+      <h2 class="title">Đăng nhập</h2>
+      <div>
+        <form action="">
+          <div class="from_row">
+            <label class="from_lable" for="user">Tài khoản: </label>
+            <input  class="username" type="text"  ></input>
+          <br>
+          </div>
+          <div class="from_row">
+            <label class="from_lable"  for="pass">Mật khẩu: </label>
+            <input  class="pass" type="text"  ></input>
+          <br>
+          </div>
+          
+        </form>
+      </div>
+      <div class="btn_b3">
+        <button class="btn_BT3">Thông báo</button>
+      </div>
+    </div>
+<!-- bài tập 4 -->
+<div class="BT4 container">
+  <div class = 'content4'>
+    <h2  class = 'title4'> Bài tập Javascript</h2>
+    <div >
+      <form action="">
+        <div class="bill_for_meals">
+          <label class="bill">Tổng bill</label> <br>
+          <input class="bill_input" type="text">
+        </div>
+      </form>
+      <form action="">
+        <div class="Tip">
+          <label class="Tip_title">Tiền Tip</label> <br>
+          <input class="Tip_input" type="text">
+        </div>
+      </form>
+      <form action="">
+        <div class="people">
+          <label class="people title">Số người đi</label> <br>
+          <input class="people_number" type="text">
+        </div>
+      </form>
+      <!-- <h class="money_one"  type="text" style="border-radius: 4px;"><br> -->
+        <p class="money_one"></p>
+      
+      <button class="caculation">Tính tiền thôi nào </button>
+    </div>
+  </div>
+</div>
     <script src="./script.js"></script>
   </body>
 </html>

@@ -1,6 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1240px;
+  padding: 0;
+  margin: 0 auto;
+}
+
 .BT2 {
-  margin-top: 100px;
-  background-color: gray;
+  margin-top: 200px;
+  background-color: rgb(221, 213, 213);
   height: 300px;
   position: relative;
 }
@@ -25,3 +36,40 @@
 .close {
   display: none;
 }
+
+/* Bài 3  */
+.BT3 {
+  background-color: rgb(233, 227, 215);
+}
+.title {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.from_row {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+}
+
+.from_lable {
+  min-width: 100px;
+  padding: 5px;
+}
+
+.from_input {
+  width: 50%;
+}
+.btn_b3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: auto;
+}
+/* .btn_BT3 {
+  padding: 5px 20px;
+  background-color: blue;
+  border: 3px solid green;
+  color: white;
+} */
